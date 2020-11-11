@@ -3,10 +3,6 @@
 
 print("This script will ask you to enter a number between 0 and 10 and then will give yo the title of the Star Wars movie")
 
-
-
-
-
 while True:
     number = input("enter a number between 0 and 10. ").isnumeric()
 
