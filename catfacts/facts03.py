@@ -15,6 +15,7 @@ def main():
     ## print the value associated with text"
     for catfact in r.json()["all"]:
         print(catfact.get("text"))  # the .get() method returns NONE if key not found
+        print(catfact.get("user")["name"]["first"]) 
 main()
 
 
