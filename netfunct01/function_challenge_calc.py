@@ -65,7 +65,3 @@ while True:
         operation = input("Please try again: (a)dd, (s)ubtract, (d)ivide, (m)ultiply: ").lower()
 
 print("Thankyou for using the calculator. \n")
-
-
-
-   

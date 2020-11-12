@@ -20,7 +20,9 @@ def first(test):
     return test    
 print("before funct call ", num1)
 
-first(num1)
+mark = first(num1)
+print("mark ",mark)
+
 
 print("after funct call ", num1)
 while True:
